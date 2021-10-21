@@ -62,7 +62,7 @@ input {
 .options a {
     margin-left: 1rem;
     font-size: 50%;
-    color: blue;
+    color: white;
     text-decoration: none;
 }
 
@@ -74,9 +74,10 @@ input {
     cursor: pointer;
 }
 
-.options a:hover {
+.listItem:hover .options a {
+    color: blue;
     cursor: pointer;
-}
+ }
 
 .status {
     padding: 1rem 1rem 0;
